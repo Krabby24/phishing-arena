@@ -141,8 +141,8 @@ To reproduce the analysis, run the tournament with the provided configuration an
 If you use Phishing Arena in your research, please cite:
 
 ```bibtex
-@misc{[COGNOME]2025phishingarena,
-  author    = {[Nome Cognome]},
+@misc{stocco2025phishingarena,
+  author    = {Marco Stocco},
   title     = {Phishing Arena: A Multi-Agent {LLM} Tournament
                for Adversarial Email Security Research},
   year      = {2025},

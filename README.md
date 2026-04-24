@@ -60,7 +60,7 @@ Three roles per match:
 ## Installation
 
 ```bash
-git clone https://github.com/[USERNAME]/phishing-arena
+git clone https://github.com/Krabby24/phishing-arena
 cd phishing-arena
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate

@@ -136,19 +136,11 @@ To reproduce the analysis, run the tournament with the provided configuration an
 
 ---
 
-## Citation
+## Project Status
 
-If you use Phishing Arena in your research, please cite:
+Personal research project by Marco Stocco.
 
-```bibtex
-@misc{stocco2025phishingarena,
-  author    = {Marco Stocco},
-  title     = {Phishing Arena: A Multi-Agent {LLM} Tournament
-               for Adversarial Email Security Research},
-  year      = {2025},
-  publisher = {arXiv},
-  url       = {https://arxiv.org/abs/XXXX.XXXXX}
-}
+The repository contains the experimental framework, evaluation pipeline and results of the current study. A formal publication has not been submitted at this stage.
 ```
 
 ---

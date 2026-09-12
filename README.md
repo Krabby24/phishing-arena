@@ -6,11 +6,11 @@
 
 **A Multi-Agent LLM Tournament for Adversarial Email Security Research**
 
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b.svg)](https://arxiv.org/abs/XXXX.XXXXX)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
 ---
+> Personal research project on multi-agent LLM security and adversarial phishing.
 
 ## Overview
 

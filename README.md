@@ -18,6 +18,14 @@ Phishing Arena is a controlled, reproducible benchmark where four commercial LLM
 
 The system runs a full tournament of 48 matches across 24 role permutations × 2 repetitions, with 20 rounds per match. The Phisher agent is equipped with a **CampaignMemory** feedback loop that accumulates round outcomes, enabling adaptive behavior without prescriptive instructions.
 
+## What I Built
+
+- Designed a multi-agent benchmark with rotating **Phisher**, **Filter**, and **Target** roles.
+- Implemented an adaptive `CampaignMemory` mechanism that lets the Phisher learn from previous outcomes.
+- Integrated four commercial LLM providers through a common experimental framework.
+- Built the tournament orchestration, checkpointing, metrics pipeline, dataset structure, and result analysis.
+- Evaluated 949 rounds across 48 matches and analysed model behaviour across attack, defence, and simulated-user roles.
+
 ### Key Findings (Italian corpus)
 
 | Role | Best Model | Key Metric |
@@ -134,6 +142,24 @@ Full tournament results are available in `data/results/`. The analysis report is
 
 To reproduce the analysis, run the tournament with the provided configuration and apply `analysis/metrics.py` to the output JSON.
 
+---
+
+## Research Scope & Safety
+
+This project is intended solely for controlled cybersecurity research.
+
+All target profiles are synthetic, and the benchmark does not interact with real users, organisations, mail systems, or phishing campaigns. Generated emails are evaluated only inside the experimental environment.
+
+The goal is to study LLM behaviour in adversarial email-security scenarios and improve understanding of AI-assisted attack and defence dynamics.
+
+---
+## Limitations
+
+- The Target role is simulated by an LLM and does not represent measured human behaviour.
+- Results are based on an Italian-language synthetic corpus.
+- Commercial LLM APIs are stochastic and may change over time.
+- The experiment uses a limited number of repetitions per role configuration.
+- Reported results should therefore be interpreted as comparative benchmark outcomes rather than estimates of real-world phishing success rates.
 ---
 
 ## Project Status
